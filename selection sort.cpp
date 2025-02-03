@@ -21,12 +21,12 @@ cout<<"enter all the elements: ";
        {
            min=j;
        }
+    }
        if(arr[min]!=i)
        {
            swap
            (arr[i], arr[min]);
        }
-    }
   }
   cout<<"sorted elements: ";
   for(int i=0;i<n;i++)
