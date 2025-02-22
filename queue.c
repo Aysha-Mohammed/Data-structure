@@ -10,7 +10,8 @@ void enqueue(int value)
     else{
     if(front==-1){
     front=0;}
-    queue[++rear]=value;
+    rear++;
+    queue[rear]=value;
     printf("%d is added\n",value);
     }
 }
@@ -62,6 +63,8 @@ int main() {
     enqueue(50);
     display();
     dequeue();
+    display();
+    enqueue(45);
     display();
 }
 
