@@ -40,7 +40,7 @@ int main()
     for(int i=1;i<pos-1&&temp!=0;i++){
     temp=temp->next;
     }
-    if(temp==0)
+    if(temp->next==0)
     {
     printf("invalid position\n");
     }
